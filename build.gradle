@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.javabegin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'docker.Start'
+    }
+}
+
+dependencies {
+
+}
